@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 sns.set_style('darkgrid')
 
 # Load Data
-students = pd.read_csv('../dashboard/students.csv')
+students = pd.read_csv('https://github.com/nurkholiqaganihafid/Analysis_Student_Dropout_Rates/blob/main/dashboard/students.csv')
 
 def display_dataframe(option):
     selected_student = students[students['status'].isin(option)]
